@@ -318,7 +318,7 @@ class WhisperModel:
             duration=duration,
         )
 
-        return segments, audio_info
+        return segments
 
     def generate_segments(
         self,
